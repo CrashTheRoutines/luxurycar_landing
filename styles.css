@@ -304,5 +304,9 @@ p {
 }
 
 .contact p {
-  font-size: 25px;
+  font-size: 32px;
+}
+
+.content h2 {
+  font-size: 48px;
 }
