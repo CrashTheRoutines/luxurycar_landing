@@ -232,6 +232,10 @@ p {
   text-decoration: none;
 }
 
+.blog-title a:hover {
+  color: red;
+}
+
 .blog-post {
   margin-bottom: 40px;
   border-bottom: 1px solid #eee;
