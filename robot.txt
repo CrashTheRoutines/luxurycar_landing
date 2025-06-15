@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://winterlord.netlify.app/sitemap.xml
