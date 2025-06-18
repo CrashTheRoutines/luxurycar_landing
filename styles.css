@@ -106,7 +106,186 @@ html, body {
 }
 
 .hero-image img {
-  width: 600px;
+  width: 100%;
   margin-top: 3rem;
   filter: drop-shadow(0 0 20px rgba(255,255,255,0.1));
 }
+
+/* Services */
+
+.services {
+  background-color: #000;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.section-header p {
+  max-width: 500px;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #111;
+  padding: 1rem;
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #aaa;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.learn-more {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  display: inline-block;
+}
+
+.learn-more::after {
+  content: " →";
+  margin-left: 0.3rem;
+}
+
+/* Frame */
+
+.frame {
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+}
+
+.frame-wrapper {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.frame-wrapper img {
+  width: 1120px;
+  height: 600px;
+  max-width: none;
+}
+
+/* Features */
+
+.features {
+  margin-top: 50px;
+  background: #000;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.left-content h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.left-content img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feature-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.feature-item h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 1.2rem 0;
+}
+
+.quote-link {
+  margin-top: 2rem;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.quote-link::after {
+  content: " →";
+  margin-left: 0.3rem;
+}
+
