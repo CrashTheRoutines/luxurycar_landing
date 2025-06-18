@@ -8,8 +8,8 @@
 }
 
 section {
-  width: 100wv;
-  min-height: 100vh;
+  width: 100vw;
+  min-height: auto;
 }
 
 .container {
@@ -38,11 +38,12 @@ html, body {
 }
 
 /* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 4rem;
+  padding: 2rem 1rem;
 }
 
 .navbar .logo {
@@ -71,6 +72,7 @@ html, body {
 }
 
 /* Hero Section */
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -128,7 +130,7 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .section-header h2 {
@@ -212,7 +214,6 @@ html, body {
 /* Features */
 
 .features {
-  margin-top: 50px;
   background: #000;
   color: #fff;
   padding: 4rem 2rem;
@@ -233,7 +234,6 @@ html, body {
 .left-content h2 {
   font-size: 2.5rem;
   font-weight: 600;
-  margin-bottom: 2rem;
   line-height: 1.2;
 }
 
@@ -292,7 +292,6 @@ hr {
 /* CTA */
 
 .cta-section {
-  padding: 60px 20px;
   display: flex;
   justify-content: center;
 }
@@ -302,6 +301,7 @@ hr {
   display: flex;
   max-width: 1200px;
   width: 100%;
+  height: auto;
   border-radius: 16px;
   overflow: hidden;
   align-items: center;
