@@ -18,15 +18,15 @@ This repository contains several implementations of one landing page **Luxury Ca
 
 ## Project structure
 
-'''bash
+```bash
 luxurycar_landing/
-├── assets/ # Common styles, scripts, images
-├── html-version/ # Clean HTML markup
-├── wp-theme/ # WordPress theme
-├── django-version/ # Django application
-├── react-version/ # React version (if any)
-└── README.md # This file
-'''
+├── assets/           # Common styles, scripts, images
+├── html-version/     # Clean HTML markup
+├── wp-theme/         # WordPress theme
+├── django-version/   # Django application
+├── react-version/    # React version (if any)
+└── README.md         # This file
+```
 
 ---
 
