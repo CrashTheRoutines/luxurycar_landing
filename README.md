@@ -21,10 +21,9 @@ This repository contains several implementations of one landing page **Luxury Ca
 ```bash
 luxurycar_landing/
 ├── assets/           # Common styles, scripts, images
-├── html-version/     # Clean HTML markup
+├── ru/     # ru-version
 ├── wp-theme/         # WordPress theme
 ├── django-version/   # Django application
-├── react-version/    # React version (if any)
 └── README.md         # This file
 ```
 
@@ -54,11 +53,9 @@ pip install -r requirements.txt
 
 ## Features
 
-Unified layout for different stacks
-
-Convenient structure for support
-
-Quick switching between formats
+- Unified layout for different stacks
+- Convenient structure for support
+- Quick switching between formats
 
 ## In development
 
