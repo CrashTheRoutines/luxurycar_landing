@@ -66,3 +66,5 @@ pip install -r requirements.txt
 ## Author
 
 Developed by CrashTheRoutines
+
+_Русская версия Readme доступна в [ru](./ru/README.md)._
