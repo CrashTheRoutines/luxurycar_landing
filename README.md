@@ -21,7 +21,7 @@ This repository contains several implementations of one landing page **Luxury Ca
 ```bash
 luxurycar_landing/
 ├── assets/           # Common styles, scripts, images
-├── ru/               # ru-version
+├── ru/               # Russian HTML version
 ├── wp-theme/         # WordPress theme
 ├── django-version/   # Django application
 └── README.md         # This file
